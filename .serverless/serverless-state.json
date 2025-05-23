@@ -103,7 +103,7 @@
             "Properties": {
               "Code": {
                 "S3Bucket": "serverless-framework-deployments-us-east-1-55c01c58-8927",
-                "S3Key": "serverless/express-lambda/dev/1748027971710-2025-05-23T19:19:31.710Z/express-lambda.zip"
+                "S3Key": "serverless/express-lambda/dev/1748026922046-2025-05-23T19:02:02.046Z/express-lambda.zip"
               },
               "Handler": "index.handler",
               "Runtime": "nodejs18.x",
@@ -121,14 +121,14 @@
               "AppLogGroup"
             ]
           },
-          "AppLambdaVersion0CY3d0XwF7qb6lJr7u0u5w2w5yRm0rQSlmWjqCyI": {
+          "AppLambdaVersionmVuhLoQpKFJFkmfkxITaojo0IdwVBRz7c88vCNSk": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "AppLambdaFunction"
               },
-              "CodeSha256": "6JxmqSTYtpO6P/voOGUo/c6xJUjP5B0BKINvRnE1z8E="
+              "CodeSha256": "zmikiOznB3rz3mn47/SXpX3wMleWnTyM1e7vJlMS0Yk="
             }
           },
           "ApiGatewayRestApi": {
@@ -253,7 +253,7 @@
               "AppLambdaPermissionApiGateway"
             ]
           },
-          "ApiGatewayDeployment1748027967971": {
+          "ApiGatewayDeployment1748026917886": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -314,7 +314,7 @@
           "AppLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "AppLambdaVersion0CY3d0XwF7qb6lJr7u0u5w2w5yRm0rQSlmWjqCyI"
+              "Ref": "AppLambdaVersionmVuhLoQpKFJFkmfkxITaojo0IdwVBRz7c88vCNSk"
             },
             "Export": {
               "Name": "sls-express-lambda-dev-AppLambdaFunctionQualifiedArn"
@@ -376,7 +376,7 @@
         "timeout": 6,
         "runtime": "nodejs18.x",
         "vpc": {},
-        "versionLogicalId": "AppLambdaVersion0CY3d0XwF7qb6lJr7u0u5w2w5yRm0rQSlmWjqCyI"
+        "versionLogicalId": "AppLambdaVersionmVuhLoQpKFJFkmfkxITaojo0IdwVBRz7c88vCNSk"
       }
     },
     "configValidationMode": "warn",
@@ -396,7 +396,7 @@
     "artifact": "/Users/jayp/Desktop/FREEDOM code/_may11- BirdProject/Aws-lambda-serverless/.serverless/express-lambda.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/express-lambda/dev/1748027971710-2025-05-23T19:19:31.710Z",
+    "artifactDirectoryName": "serverless/express-lambda/dev/1748026922046-2025-05-23T19:02:02.046Z",
     "artifact": "express-lambda.zip"
   }
 }
