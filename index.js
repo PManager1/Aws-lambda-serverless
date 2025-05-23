@@ -8,6 +8,10 @@ app.get('/', (req, res) => {
   res.send('Hello from Express!');
 });
 
+app.get('/test', (req, res) => {
+  res.send('Hello TESTING JI  from Express!');
+});
+
 // For local dev
 if (process.env.NODE_ENV !== 'lambda') {
   const PORT = process.env.PORT || 3005;
